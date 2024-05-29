@@ -145,7 +145,8 @@ import {
               />
   
               <Stat>
-                <StatLabel>{coin.name}</StatLabel>
+                  <StatLabel>{coin.name}</StatLabel>
+                  
                 <StatNumber>
                   {currencySymbol}
                   {coin.market_data.current_price[currency]}
