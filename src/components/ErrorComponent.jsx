@@ -13,6 +13,7 @@ const ErrorComponent = ({ message }) => {
     >
       <AlertIcon />
       {message}
+      
     </Alert>
   );
 };

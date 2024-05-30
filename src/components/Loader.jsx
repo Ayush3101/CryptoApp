@@ -8,7 +8,6 @@ const Loader = () => {
         <Box transform={"scale(3)"}>
             <Spinner size={"xl" }/>
         </Box>
-
     </VStack>
   );
 };
